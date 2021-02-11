@@ -1,0 +1,136 @@
+/*  ***  CSS global  ***    */
+body {
+  width: 70%;
+  margin: auto;
+}
+
+html, header, nav {
+  background-color: rgb(105, 77, 77);
+}
+
+header {
+  /* background-color: rgb(126, 49, 49); */
+  /* width: 100%; */
+  padding: 10px 30px;
+  color: white;
+}
+
+nav {
+  /* background-color: rgb(20, 10, 10); */
+  text-align: center;
+}
+
+section {
+  background-color: whitesmoke;
+  padding: 10px 30px;
+
+}
+
+.button {
+  background-color: rgb(218, 236, 253);
+  border-radius: 12px;
+  border: 2px solid whitesmoke;
+  color: black;
+  padding: 1px 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.greytext {
+  color: rgb(83, 29, 29);
+  padding: 10px 20px;
+}
+#hrMemo{
+  margin-top: 70px;
+}
+.memo {
+  background-color: beige;
+  color: rgb(174, 162, 247);
+}
+
+.result {
+  color: whitesmoke;
+  text-align: left;
+}
+
+.statement {
+  display: block;
+  color:white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.submit_btn {
+  text-align: center;
+}
+
+/*   ***** CSS formulaire  ***  */
+form {
+  /* width: 100%; */
+  background-color: rgb(225, 239, 252);
+  /* padding : 5px 20px; */
+}
+
+/* .c100{
+  width: 100%;
+  margin: 20px;
+} */
+label {
+  display: inline-block;
+  min-width: 25%;
+}
+
+.alert {
+  color: crimson;
+  font-size: 11px;
+}
+
+input[type="submit"] {
+  color: RGB(200, 100, 0);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: 2px solid RGB(200, 100, 0);
+}
+
+input[type="submit"]:hover {
+  background-color: RGB(200, 100, 0);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px #777;
+}
+
+/*   ***** CSS file upload   ***  */
+
+fieldset legend {
+  padding: 0px 20px;
+}
+
+#fieldset_myfile {
+  margin: 20px 0px;
+}
+
+#submit_form {
+  margin: auto;
+  text-align: center;
+}
+
+/*  CSS image  */
+.profil_Img {
+  max-width: 150px;
+  height: auto;
+  border: 0.5em ridge rgba(94, 93, 100, 0.6);
+  margin-right: 30px;
+}
+
+#response {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+
+}

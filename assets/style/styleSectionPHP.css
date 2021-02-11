@@ -1,0 +1,93 @@
+/*    *****  pour affichage section_PHP 1 à 8  de la liste globale  ***** */
+
+html {
+  background-color: rgb(20, 10, 10);
+}
+
+body {
+  width: 70%;
+  margin: auto;
+  background-color:white;
+  text-align: center;
+}
+
+header {
+  background-color: rgb(20, 10, 10);
+  text-align: center;
+  padding: 20px 30px;
+  color: white;
+}
+
+.navbar {
+  background-color: rgb(20, 10, 10);
+  text-align: center;
+  padding: 20px 30px;
+  /* margin: 20px 30px; */
+}
+.button {
+  background-color: rgb(218, 236, 253);
+  border-radius: 12px;
+  border: 2px solid whitesmoke;
+  color: black;
+  padding: 1px 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/*   ***** fieldset  ***  */
+fieldset{
+  /* text-align: center; */
+  text-align: left;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+fieldset legend {
+  padding: 10px 20px;
+  /* margin-bottom: 35px; */
+  text-align: left;
+  font-size: larger;
+}
+
+/*   *****   affichage lien vers exo sur image  ***  */
+.container {
+  /* display: inline-block; */
+  position: relative;
+  /* text-align: left; */
+  /*a verifier !!!*/
+}
+
+.container .text {
+  /* background: rgba(0, 0, 0, 0.8); */
+  /* z-index: 1; */
+  position: absolute;
+  /* text-align: center; */
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 5px;
+  /*  alignement du button / au top image*/
+  /* color: white; */
+  width: 20%;
+  /* taile du div contenant la lien */
+}
+.comm{
+  background-color: beige;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.close{
+  background-color: beige;
+  padding-bottom: 50px;
+  font-size: x-large;
+  text-align: left;
+  padding-left: 50px;
+}
+
+/* affichage text sur image par
+https://waytolearnx.com/2019/07/comment-afficher-du-texte-sur-une-image-avec-html-css.html */

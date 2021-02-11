@@ -1,0 +1,44 @@
+body{
+  background-color: aquamarine;
+}
+
+.VBContenaire{
+  display: flex;
+  justify-content:space-around;
+}
+.divForm {
+  /* border: 1px solid blue; */
+  margin:auto;
+}
+/* section{
+  border: 1px solid red;
+} */
+/* div{
+  border : 1px solid greenyellow;
+} */
+.phoneinput{
+width: 110px;
+/* border-color:red; */
+text-align:start;
+
+}
+.btnradio{
+  /* display: flex; */
+/* justify-self: center; */
+/* border: 1px solid green; */
+background-color:white;
+}
+/* label {
+  float: left;
+  display: block;
+  width: 30px;
+} */
+
+.spanRadio{
+display: inline-block;
+margin:auto;
+}
+.optionCountry{
+  width: 170px;
+  background-color: white;
+}

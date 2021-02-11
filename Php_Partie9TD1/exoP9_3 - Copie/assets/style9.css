@@ -1,0 +1,207 @@
+/*    *****  pour affichage section_PHP 1 à 8  de la liste globale  ***** */
+
+html {
+  background-color: rgb(20, 10, 10);
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+}
+
+.navbar {
+  /* pour liste exos */
+  background-color: rgb(20, 10, 10);
+  text-align: center;
+  padding: 20px 30px;
+  /* margin: 20px 30px; */
+}
+
+header {
+  background-color: rgb(20, 10, 10);
+  text-align: center;
+  padding: 20px 30px;
+  color: blue;
+}
+
+/* bton du menu exos */
+.buttonVB {
+  background-color: rgb(218, 236, 253);
+  border-radius: 12px;
+  border: 2px solid whitesmoke;
+  color: blue;
+  padding: 1px 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*  corps de index   */
+/*  ******* pour formulaire */
+form {
+  background-color: rgb(255, 242, 226);
+  
+  /* margin: auto; */
+}
+/*   ***** fieldset  ***  */
+fieldset {
+  margin: auto;
+  text-align: center;
+  width: 65%;
+  text-align: left;
+  padding: 10px 0px;
+  margin-top: 10px;
+  background-color: rgb(252, 247, 240);
+}
+
+legend {
+  padding: 10px 20px;
+  /* margin-bottom: 35px; */
+  text-align: center;
+  font-size: larger;
+  color: #4122ee;
+  font-weight: bold;
+}
+
+ol {
+  list-style: none;
+}
+
+
+.VBContenair_top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center; 
+  @media(max-width: 650px) {
+    flex-flow: column wrap; 
+  }
+}
+/*  formulaires */
+.div_ss_form {
+  margin-top: 0px;
+}
+
+.width_ss_form1 {
+  width: 250px;
+  text-align: left;
+}
+
+.width_ss_form2 {
+  width: 380px;
+}
+
+.imglogoicone {
+  float: left;
+  margin-right: 10px;
+}
+.imglogohack {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.acceptation {
+  text-align: left;
+  padding-left: 30px;
+  background-color: lightblue;
+}
+
+/*   *****   affichage lien vers exo sur image  ***  */
+
+.comm {
+  background-color: beige;
+  font-style: italic;
+  color: blueviolet;
+}
+
+/*pour label bton radio en ligne (civility et diplomes)*/
+.inline {
+  display: inline;
+  margin-right: 5px;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+  margin-bottom: 0px;
+}
+/* label btons radio  */
+
+
+.phoneinput {
+  width: 110px;
+  text-align: start;
+}
+
+input,
+textarea,
+select,
+option {
+  background-color: #fdf2ed;
+}
+
+input,
+textarea,
+select {
+  padding: 4px;
+  padding-left: 5px;
+  border: 1px solid #fac1c1;
+  border-radius: 10px;
+  text-align: start;
+  box-shadow: 1px 1px 2px #d4c4c4 inset;
+}
+
+button[type=submit]:focus {
+  background-color: #FFF3F3;
+}
+
+button[type=submit]:hover {
+  background-color: #FCDEDE;
+}
+
+button[type=submit]:active {
+  background-color: #FCDEDE;
+  box-shadow: 1px 1px 1px #D83F3D inset;
+}
+
+/* ex class btnSubmit */
+/* button [type=submit] { */
+.btnSummit {
+  width: 100px;
+  margin-left: 5px;
+  box-shadow: 1px 1px 1px #D83F3D;
+  cursor: pointer;
+}
+
+select {
+  margin-top: 10px;
+}
+
+.widthCountry {
+  width: 170px;
+}
+
+.msgAlert {
+  color: crimson;
+  font-size: 15px;
+}
+
+
+.imgLogoPE {
+  width: 20px;
+  vertical-align: text-top;
+}
+
+#icoVB {
+  border: 1px solid blue;
+}
+
+
+
+/* affichage text sur image par
+https://waytolearnx.com/2019/07/comment-afficher-du-texte-sur-une-image-avec-html-css.html */

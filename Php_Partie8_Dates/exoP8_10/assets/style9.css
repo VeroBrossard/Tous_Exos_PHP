@@ -1,0 +1,55 @@
+div{
+  text-align:center; 
+  padding: 20px;
+  border: 2px solid blue;
+  margin-top: 20px;
+}
+table {
+  /* width:350px;  */
+  /* height:100px; */
+  /* overflow:hidden; */
+  border-collapse:collapse;
+  margin:auto;
+ 
+ /* border: 1px solid blue; */
+  }
+  caption{
+    text-align: left;
+    margin-bottom: 5px;
+    color:darkgrey;
+  }
+  th {
+  width:90px; 
+  color:white;
+  font-weight: normal;
+  background-color: grey;
+  border: 1px solid blueviolet;
+  height: 20px;
+  /* overflow:hidden; */
+  }
+  td{
+    color:darkgrey;
+    height: 55px;
+    padding-top: 3px;
+    padding-left: 3px;
+    border: 1px solid blueviolet;
+    vertical-align:text-top;
+    text-align: left;
+  }
+.non{
+  background-color: rgb(218, 217, 212);
+}
+.holidays{
+  padding: 0px;
+  background-color: rgb(179, 208, 253);
+}
+.textfestif{
+  font-size: 13px;;
+  padding: 0px;
+  margin: auto;
+  color: darkblue;
+  border: none;
+}
+img{
+  width:400px;
+}

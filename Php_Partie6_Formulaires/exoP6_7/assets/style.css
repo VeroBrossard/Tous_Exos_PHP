@@ -1,0 +1,53 @@
+ /*   *** body voir css style_global.css ***   */
+
+section{
+  padding : 10px 30px;
+}
+
+/*   ***** CSS formulaire  ***  */
+ form{
+  /* width: 100%; */
+  background-color: rgba(220,220,0,0.2);
+  /* padding : 5px 20px; */
+}
+
+/* .c100{
+  width: 100%;
+  margin: 20px;
+} */
+label{
+  display: inline-block;
+  min-width: 25%;
+}
+.alert{
+  color : crimson;
+  font-size: 11px;
+}
+input[type="submit"]{
+  color: RGB(200,100,0);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: 2px solid RGB(200,100,0);
+}
+input[type="submit"]:hover{
+  background-color: RGB(200,100,0);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px #777;
+}
+
+/*   ***** CSS file upload   ***  */ 
+
+fieldset legend{
+  padding : 0px 20px;
+}
+#fielset_myfile{
+  margin: 20px 0px;
+}
+#submit_form{
+  margin: auto;
+  text-align: center;
+}
+
+
