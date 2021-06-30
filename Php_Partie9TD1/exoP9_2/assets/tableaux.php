@@ -259,3 +259,4 @@ $nations = [
   "ZM" => "Zambie",
   "ZW" => "Zimbabwe"
 ];
+?>
